@@ -1,0 +1,48 @@
+/* TambahObat.css */
+.tambah-obat-container {
+    width: 80%; /* Memperluas ukuran form */
+    margin: 20px auto; /* Pusatkan dengan margin atas */
+    background-color: #ffffff;
+    padding: 30px; /* Tambahkan padding untuk ruang ekstra */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .tambah-obat-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .tambah-obat-form label {
+    margin-top: 15px;
+    font-weight: bold;
+  }
+  
+  .tambah-obat-form input,
+  .tambah-obat-form select,
+  .tambah-obat-form textarea {
+    margin-top: 5px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+  }
+  
+  .tambah-obat-form textarea {
+    resize: vertical;
+  }
+  
+  .save-button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #2c3e50; /* Warna tombol */
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .save-button:hover {
+    background-color: #34495e; /* Warna saat hover */
+  }

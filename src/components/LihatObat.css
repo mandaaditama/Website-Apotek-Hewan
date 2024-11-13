@@ -1,0 +1,54 @@
+/* LihatObat.css */
+.lihat-obat-container {
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lihat-obat-container h2 {
+  font-size: 24px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.btn-tambah-obat {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.btn-tambah-obat:hover {
+  background-color: #218838;
+}
+
+.table-obat {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table-obat th,
+.table-obat td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.table-obat th {
+  background-color: #f2f2f2;
+  color: #333;
+}
+
+.table-obat td {
+  color: #666;
+}
+
+.table-obat tr:hover {
+  background-color: #e9ecef;
+}
